@@ -1,160 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Innovas</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="bg-gray-400 px-24 py-16">
+  <body class="px-24 py-16">
     <header>
-        <nav class="flex justify-between ">
-            <h1 class="text-white">LOGO</h1>
-            <ul  class="flex space-x-24 ">
-                <li class="border-2	px-4 rounded-full text-white hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer"><a href="">Home</a></li>
-                <li class="border-2	px-4 rounded-full text-white hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer"><a href="">About</a></li>
-                <li class="border-2	px-4 rounded-full text-white hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer"><a href="">Our Team</a></li>
-
-            </ul>
-            <a class="border-2 border-yellow-400 bg-yellow-400	px-4 rounded-full text-white hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer" href="">Let's Connect</a>
-        </nav>
-        
+      <nav class="flex justify-between items-center">
+        <a  class="text-white font-bold" href="">INNOVAS </a>
+        <ul class="flex space-x-8 items-center">
+          <li
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            <a href="#home">Home</a>
+          </li>
+          <li
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            <a href="#about">About</a>
+          </li>
+          <li
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            <a href="#service">Services</a>
+          </li>
+          <li
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            <a href="#mission">Mission</a>
+          </li>
+          <li
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            <a href="#challenges">Challenges</a>
+          </li>
+          <li
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            <a href="#team">Our Team</a>
+          </li>
+        </ul>
+        <a
+          class="border-2 border-red-400 bg-red-400 px-4 rounded-full text-white hover:text-black hover:text-black hover:border-red-500 hover:bg-red-500 hover:cursor-pointer"
+          href="#connect"
+          >Let's Connect</a
+        >
+      </nav>
     </header>
 
-    <section class="mt-16">
-          <h1 class="text-8xl text-white">Promoting <span class="text-red-400">Youth</span><br> Entrepreneurs <span class="text-red-400">In</span> Africa<span class="text-red-400">.</span></h1>
-         
-          <div class="flex justify-between mt-16">
-            <div class="flex  flex-col justify-between space-y-8">
-                <div class="text-white space-y-6">
-                    <p class="text-[1px]">We are a team dedicated to understanding <br> knowledge gaps that hinder youth <br> entrepreneurship and leveraging business <br> skills and competence</p>
-                    <p>We believe inclusive access to information <br> and business learning can go a long mile to <br> empower youth entrepreneurs in remote <br> areas of Africa.</p>
-                </div>
-               <a class="border-2 border-red-400 bg-red-400 w-48 text-center py-2 text-white hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer" href="">Our Challenges</a>
-            </div>
-            <img class="w-96 h-64" src="./images/team2.png" alt="">
+    <section id="home" class="mt-16">
+      <h1 class="text-8xl text-white">
+        Promoting <span class="text-red-400">Youth</span><br />
+        Entrepreneurs <span class="text-red-400">In</span> Africa<span
+          class="text-red-400"
+          >.</span
+        >
+      </h1>
+
+      <div class="flex justify-between mt-16">
+        <div class="flex flex-col justify-between space-y-8">
+          <div class="text-white space-y-6 font-extralight">
+            <p class="text-[1px]">
+              We are a team dedicated to understanding <br />
+              knowledge gaps that hinder youth <br />
+              entrepreneurship and leveraging business <br />
+              skills and competence
+            </p>
+            <p>
+              We believe inclusive access to information <br />
+              and business learning can go a long mile to <br />
+              empower youth entrepreneurs in remote <br />
+              areas of Africa.
+            </p>
           </div>
+          <a
+            class="border-2 rounded hover:bg-red-500 hover:border-red-500 border-red-400 bg-red-400 w-48 text-center py-2 text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+            href="#challenges"
+            >Our Challenges</a
+          >
+        </div>
+        <img class="w-96 h-64" src="./images/team2.png" alt="" />
+      </div>
     </section>
 
-    <section class="mt-44 space-y-16">
-        <div class="space-y-5">
-            <h2 class="text-green-400 text-4xl text-center">About Us</h2>
-            <p class="text-white">We are on a mission to promote best business practices and growth potential among African youth  entrepreneurs by providing easily accessible information and business insights.</p>
-        </div>
-        
-   
-          <div class="space-y-16">
-            <h3 class="text-white text-center text-4xl">Our Values</h3>
-            <div class="flex justify-between">
-                <div class="border-2  space-y-2  px-2 py-4 ">
-                    <span class="text-green-400 text-center">Innovation</span>
-                    <div class="bg-white rounded-full border-2 w-8 h-8"></div>
-                    <p class="text-white">Taking innovative approaches to <br>
-                        provide inclusive access to <br>
-                        information and business learning </p>
-                </div>
-                <div class="border-2 border-red-400  space-y-2  px-2 py-4 ">
-                    <span class=" text-center">Creativity</span>
-                    <div class="bg-white rounded-full border-2 w-8 h-8"></div>
-                    <p class="">Leveraging creativity to create <br>
-                        fun and engaging content <br>
-                        that youth cannot second thin </p>
-                </div>
+    <section id="about" class="mt-44 space-y-16">
+      <div class="space-y-5">
+        <h2 class="text-red-400 text-4xl text-center font-bold">About Us</h2>
+        <p class="text-white font-extralight">
+          We are on a mission to promote best business practices and growth
+          potential among African youth entrepreneurs by providing easily
+          accessible information and business insights.
+        </p>
+      </div>
 
-                <div class="border-2   space-y-2  px-2 py-4 ">
-                    <span class=" text-center">Financial Literacy</span>
-                    <div class="bg-white rounded-full border-2 w-8 h-8"></div>
-                    <p class="text-white"> Championing financial literacy as a <br>
-                        result of easy access to business <br>
-                        information and learning. </p>
-                </div>
+      <div class="space-y-16">
+        <h3 class="text-white text-3xl font-semibold">Our Values</h3>
+        <div class="flex justify-between px-28">
+          <div
+            class="border-4 space-y-6 px-4 py-12 flex flex-col justify-center"
+          >
+            <span class="text-red-400 text-center font-semibold text-2xl"
+              >Innovation</span
+            >
+            <div class="flex justify-center">
+              <span class="bg-white rounded-full border-8 w-12 h-12"></span>
             </div>
+            <p class="text-white font-extralight">
+              Taking innovative approaches to <br />
+              provide inclusive access to <br />
+              information and business learning
+            </p>
           </div>
-        </section>
-
-    <section class="mt-24 space-y-12">
-        <div class="space-y-5">
-            <h2 class="text-white text-center text-4xl">Our Challenges</h2>
-            <p class="text-white">We  find learning and impact through taking challenges. </p>
-        </div>
-        
-
-          <div class="flex justify-between">
-            <div class="space-y-8 text-center">
-                <button class="border-2 bg-white	px-4 rounded-full text-black hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer">Untold Story</button>
-                <img src="./images/generic.png" alt="">
+          <div
+            class="border-4 space-y-6 px-4 py-12 flex flex-col justify-center"
+          >
+            <span class="text-red-400 text-center font-semibold text-2xl"
+              >Creativity</span
+            >
+            <div class="flex justify-center">
+              <span class="bg-white rounded-full border-8 w-12 h-12"></span>
             </div>
-            <div class="space-y-8 text-center">
-                <button class="border-2 bg-white	px-4 rounded-full text-black hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer">Untold Story</button>
-                <img src="./images/helplab.png" alt="">
-            </div>
-            <div class="space-y-8 text-center">
-                <button class="border-2 bg-white	px-4 rounded-full text-black hover:bg-green-400 hover:text-black hover:border-green-400 hover:cursor-pointer">Untold Story</button>
-                <img src="./images/generic.png" alt="">
-            </div>
+            <p class="text-white font-extralight">
+              Leveraging creativity to create <br />
+              fun and engaging content <br />
+              that youth cannot second thin
+            </p>
           </div>
+          <div
+            class="border-4 space-y-6 px-4 py-12 flex flex-col justify-center"
+          >
+            <span class="text-red-400 text-center font-semibold text-2xl"
+              >Financial Literacy</span
+            >
+            <div class="flex justify-center">
+              <span class="bg-white rounded-full border-8 w-12 h-12"></span>
+            </div>
+            <p class="text-white font-extralight">
+              Championing financial literacy as a <br />
+              result of easy access to business <br />
+              information and learning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="mt-24 space-y-12">
+      <h2 class="text-red-400 text-4xl text-center font-bold">Our Service</h2>
+      <div class="space-y-7">
+        <h3 class="text-white text-3xl font-semibold">Problem statement</h3>
+        <p class="text-white font-extralight pl-6">
+          Youth entrepreneurship in Rwanda faces significant challenges that
+          hinder its growth and <br />
+          development. These challenges include limited access to information,
+          inadequate business skills, <br />
+          and limited access to financial resources. According to the study by
+          MINICOM, NISR, MIFOTRA and <br />
+          PSF (2017), show that half (50%) of the businesses that are started in
+          Rwanda do not exceed five <br />
+          years life, even those which exceed five year, only a fraction remains
+          in operation in the next <br />
+          decade. With this persistent issue of failing businesses, many people
+          get laid off and other <br />
+          businesses get completely shut down which increases the rate of
+          unemployment.
+        </p>
+      </div>
+
+      <div class="flex justify-between">
+        <div class="space-y-7">
+          <h3 class="text-white text-3xl font-semibold">What we do</h3>
+          <div class="text-white font-extralight pl-6 space-y-5">
+            <p>
+              Our platform serves as an empowerment hub for aspiring <br />
+              entrepreneurs, providing a dynamic space for skill acquisition
+              <br />
+              and knowledge development. <br />
+            </p>
+            <p>
+              Tailored specifically for young innovators, it offers <br />
+              a comprehensive suite of resources and interactive tools <br />
+              designed to equip them with the essential skills and insights
+              <br />
+              needed to thrive in the competitive business landscape. <br />
+            </p>
+            <p>
+              Through a combination of practical learning modules and real-world
+              <br />
+              application, we aim to foster a community of empowered <br />
+              and successful entrepreneurs ready to tackle the challenges of
+              <br />
+              tomorrow
+            </p>
+          </div>
+        </div>
+        <img src="./images/about.png" alt="about" />
+      </div>
+    </section>
+
+    <section id="mission" class="mt-24 space-y-32">
+      <div class="space-y-7">
+        <h2 class="text-red-400 text-4xl text-center font-bold">Our Mission</h2>
+        <p class="text-white font-extralight pl-6">
+          To foster economic growth and comTo foster economic growth and combat
+          unemployment in Rwanda by promoting youth entrepreneurshipbat
+          unemployment in Rwanda by promoting youth entrepreneurship
+        </p>
+      </div>
+
+      <div class="flex justify-between">
+        <img src="./images/mission.png" alt="about" />
+        <div class="text-white font-extralight pl-6 space-y-5">
+          <p>
+            We passionately champion youth entrepreneurship as a catalyst <br />
+            for sustainable development.
+          </p>
+
+          <p>
+            By nurturing a culture of innovation and providing <br />
+            comprehensive support, we aim to empower the vibrant youth
+            <br />community with the skills, resources, and mentorship needed
+            <br />
+            to thrive as successful entrepreneurs.
+          </p>
+
+          <p>
+            Through our initiatives, we aspire to create a thriving ecosystem
+            <br />
+            that not only fosters economic advancement but also unlocks
+            <br />the immense potential of Rwanda's talented youth, shaping a
+            <br />
+            brighter future for generations to come.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="challenges" class="mt-24 space-y-12">
+      <div class="space-y-5">
+        <h2 class="text-red-400 font-bold text-center text-4xl">
+          Our Challenges
+        </h2>
+        <p class="text-white font-extralight">
+          We find learning and impact through taking challenges.
+        </p>
+      </div>
+
+      <div class="flex justify-between">
+        <div class="space-y-8 text-center">
+          <button
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            Untold Story
+          </button>
+          <img src="./images/generic.png" alt="" />
+        </div>
+        <div class="space-y-8 text-center">
+          <button
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            Help Lab
+          </button>
+          <img src="./images/helplab.png" alt="" />
+        </div>
+        <div class="space-y-8 text-center">
+          <button
+            class="border-2 px-4 rounded-full text-white hover:bg-red-400 hover:text-black hover:border-red-400 hover:cursor-pointer"
+          >
+            Hunt for Treasure
+          </button>
+          <img src="./images/hunt.png" alt="" />
+        </div>
+      </div>
     </section>
 
    
-    <section class="mt-32 space-y-16">
-        <div class="space-y-5">
-            <h2 class="text-4xl text-green-400 text-center">Meet the Team</h2>
-            <p class="text-white">Business enthusiasts who envision Africa’s prosperity in empowering youth entrepreneurs with best business insights and practices. </p>
-        </div>
-         
-   
-          <div class="flex flex-wrap gap-16">
-            <div class="space-y-4">
-                <img src="./images/generic.png" alt="">
-                <div class="flex flex-col">
-                    <span class="text-red-400">Prince Makuochi</span>
-                    <span>Informal Business Analyst</span>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <img src="./images/generic.png" alt="">
-                <div  class="flex flex-col">
-                    <span class="text-red-400">Samuel Mugisha</span>
-                    <span>Full-stack Developer</span>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <img src="./images/lily.png" alt="">
-                <div  class="flex flex-col">
-                    <span class="text-red-400">Gikundiro Liliane</span>
-                    <span>Technical &Creative Writer</span>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <img src="./images/generic.png" alt="">
-                <div  class="flex flex-col">
-                    <span class="text-red-400">Ninette Agatesi</span>
-                    <span>Social Media Manager</span>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <img src="./images/pacy.png" alt="">
-                <div  class="flex flex-col">
-                    <span class="text-red-400">Nziza Aime Pacifique</span>
-                    <span>Business Research Lead</span>
-                </div>
-            </div>
-          </div>
-        </section>
 
-    <footer class="mt-24 flex items-center space-x-24">
-          <h2 class="text-white text-4xl">Connect with us</h2>
-          <ul class="flex space-x-24">
-            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-            <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        </ul>
-          
+    <section id="team" class="mt-32 space-y-16">
+      <div class="space-y-5">
+        <h2 class="text-4xl text-red-400 font-bold text-center">
+          Meet the Team
+        </h2>
+        <p class="text-white font-extralight">
+          Business enthusiasts who envision Africa’s prosperity in empowering
+          youth entrepreneurs with best business insights and practices.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap gap-16">
+        <div class="space-y-4">
+          <img class="w-52 h-52" src="./images/prince.png" alt="" />
+          <div class="flex flex-col">
+            <span class="text-red-400">Prince Makuochi</span>
+            <span class="text-white font-extralight"
+              >Informal Business Analyst</span
+            >
+          </div>
+        </div>
+        <div class="space-y-4">
+          <img class="w-52 h-52" src="./images/samuel.jpg" alt="" />
+          <div class="flex flex-col">
+            <span class="text-red-400">Samuel Mugisha</span>
+            <span class="text-white font-extralight">Full-stack Developer</span>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <img class="w-52 h-52" src="./images/lily.png" alt="" />
+          <div class="flex flex-col">
+            <span class="text-red-400">Gikundiro Liliane</span>
+            <span class="text-white font-extralight"
+              >Technical &Creative Writer</span
+            >
+          </div>
+        </div>
+        <div class="space-y-4">
+          <img class="w-52 h-52" src="./images/ninete.png" alt="" />
+          <div class="flex flex-col">
+            <span class="text-red-400">Ninette Agatesi</span>
+            <span class="text-white font-extralight">Social Media Manager</span>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <img class="w-52 h-52" src="./images/pacy.png" alt="" />
+          <div class="flex flex-col">
+            <span class="text-red-400">Nziza Aime Pacifique</span>
+            <span class="text-white font-extralight"
+              >Business Research Lead</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="connect" class="mt-24 flex items-center space-x-24">
+      <h2 class="text-red-400 text-4xl font-bold">Connect with us</h2>
+      <ul class="flex space-x-24">
+        <li>
+          <a class="text-4xl text-red-300" href=""
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a class="text-4xl text-red-600" href=""
+            ><i class="fa fa-youtube" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a class="text-4xl text-blue-400" href="">
+            <i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-    <script src="https://kit.fontawesome.com/f247d804c5.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/f247d804c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
