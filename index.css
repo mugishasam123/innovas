@@ -4,4 +4,27 @@ body{
 .popup{
     background-color: #FBE8D3;
     width: fit-content;
+    height: fit-content;
+    padding-bottom: 500px;
+    
 }
+.closebtn:hover{ 
+    cursor: pointer;
+}
+
+.popup-container {
+    position: fixed;
+    display: none;
+    align-items: stretch;
+    justify-content: center;
+    padding: 4.88%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(193, 199, 208, 0.85);
+    width: 100vw;
+    overflow: initial;
+    backdrop-filter: blur(4px);
+  }
+  
