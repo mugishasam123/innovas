@@ -14,7 +14,7 @@ const challenges = [
   {
     id: "Help Lab",
     desc: "We believe in growing by lifting others and    our compassion drives us to contributing  to Home for Hope Foundation, a charity  home dedicated to facilitating education and wellbeing in Kabuga.  link to the video",
-    link: "https://www.youtube.com/watch?v=GyUBPdYef90",
+    link: "https://www.youtube.com/watch?v=0zbnZeP38iw",
     image: "./images/help.png",
   },
   {
